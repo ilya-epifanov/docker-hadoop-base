@@ -1,4 +1,6 @@
-FROM java:8
+FROM openjdk:8-jre
+
+MAINTAINER Ilya Epifanov <elijah.epifanov@gmail.com>
 
 RUN mkdir /hadoop
 
